@@ -1,0 +1,63 @@
+body{
+    background-color: #F9F1F0;
+}
+.buy-container {
+  max-width: 600px;
+  margin: 40px auto;
+  width: 90%;
+  padding: 20px;
+  background: #FADCD9;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #F79489;
+}
+
+.buy-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.buy-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px; /* Adjust this value as needed */
+  padding-right: 20px;
+}
+
+.buy-form label {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.buy-form input,
+.buy-form textarea,
+.buy-form select {
+  /*padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;*/
+  flex-grow: 1; /* Allows the input to take up available space */
+  width: 100%; /* Ensures the input fills its flex item space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box; 
+  background-color: #F9F1F0;
+}
+
+.buy-form button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #F79489;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.buy-form button:hover {
+  background-color: #F8AFA6;
+}
